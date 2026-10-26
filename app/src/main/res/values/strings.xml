@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReelGuard</string>
+    <string name="accessibility_service_label">ReelGuard Feed Blocker Service</string>
+    <string name="accessibility_service_description">ReelGuard detects when supported short-form video feeds (such as YouTube Shorts and Instagram Reels) are opened, and redirects back according to your per-app blocking preferences. All analysis runs strictly on-device with zero data collection.</string>
+    <string name="intercept_title">Focus Protected</string>
+    <string name="intercept_message">ReelGuard redirected you away from %1$s to safeguard your attention.</string>
+</resources>

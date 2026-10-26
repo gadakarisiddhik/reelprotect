@@ -1,0 +1,6 @@
+{
+  "name": "ReelGuard",
+  "description": "Multi-app Shorts and Reels blocker with independent per-app controls, focus sessions, and privacy-first local detection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

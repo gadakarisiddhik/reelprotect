@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Outline / Base -->
+    <path
+        android:pathData="M54,22 L30,32 V52 C30,69 40.5,84.5 54,88.5 C67.5,84.5 78,69 78,52 V32 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FF8B5CF6">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#268B5CF6"/>
+                <item android:offset="1.0" android:color="#406366F1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Reel Barrier Bars -->
+    <path
+        android:fillColor="#FF60A5FA"
+        android:pathData="M45,41 C45,39.9 45.9,39 47,39 C48.1,39 49,39.9 49,41 V63 C49,64.1 48.1,65 47,65 C45.9,65 45,64.1 45,63 Z" />
+    <path
+        android:fillColor="#FF10B981"
+        android:pathData="M59,41 C59,39.9 59.9,39 61,39 C62.1,39 63,39.9 63,41 V63 C63,64.1 62.1,65 61,65 C59.9,65 59,64.1 59,63 Z" />
+    <!-- Diagonal guard slash or center shield dot -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,47 A3,3 0 1,0 54,53 A3,3 0 1,0 54,47 Z" />
+</vector>
